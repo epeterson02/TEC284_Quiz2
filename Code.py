@@ -27,3 +27,7 @@ def check_buttons():
         blue_led.on()
     else:
         blue_led.off()
+
+# Loop to run code constantly
+while True:
+    check_buttons()
