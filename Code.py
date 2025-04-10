@@ -9,7 +9,10 @@ red_button = Button(20)
 green_button = Button(6)
 blue_button = Button(26)
 
+# Define function for checking button states
 def check_buttons():
+
+    # Check for button state changes
     if red_button.is_pressed:
         print("Red is pressed")
         red_led.on()
